@@ -3,11 +3,16 @@ app.controller 'HomeCtrl', ($rootScope, $scope, $http, $log) ->
 		constructor: ->
 		send: ->
 			return if not @name? or not @email
-
+			
+			mixpanel.identify @email
 			mixpanel.people.set
+				"$name": @name
 				"$email": @email,
 				"$last_login": new Date()
+
+			mixpanel.track("Subscribe", 
 				name: @name, 
+				email: @email)
 
 			@sent = true
 
