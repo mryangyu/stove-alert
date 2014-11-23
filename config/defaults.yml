@@ -34,5 +34,5 @@ production: &production
   public_keys:
     <<: *defaultPublicKeys
     mixpanel: 2ff282bfcb986f5872e621848a79a7dc
-kitchen-prod:
+stove-alert:
   <<: *production
