@@ -22,7 +22,7 @@ development: &defaults
       page_size: 30
       leave_warning: true
   public_keys: &defaultPublicKeys
-    mixpanel: c923e5cf9e4f2fbb958293329d5ceac1
+    mixpanel: 65ee9c970614cb406266f7c18af95eb2
 production: &production
   <<: *defaults
   env: production
@@ -31,8 +31,5 @@ production: &production
     <<: *defaultApp
     console: 
       debug: false
-  public_keys:
-    <<: *defaultPublicKeys
-    mixpanel: 2ff282bfcb986f5872e621848a79a7dc
 stove-alert:
   <<: *production

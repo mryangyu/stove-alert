@@ -1,13 +1,16 @@
 #home
 	.bg
 		.container
-			form.form-inline
+			form.form-inline(ng-hide='subscribe.sent')
 				h3 Be the first to know when StoveAlert becomes available
 				.form-group
-					input.form-control(placeholder='Full name')
+					input.form-control(placeholder='Full name', ng-model='subscribe.name')
 				.form-group
-					input.form-control(placeholder='Email')
-				button.btn.btn-primary Notify me when there StoveAlert is available!
+					input.form-control(placeholder='Email', ng-model='subscribe.email')
+				button.btn.btn-primary(ng-click='subscribe.send()') Notify me when there StoveAlert is available!
+
+			h3(ng-show='subscribe.sent') Thank you!
+
 	.container
 		.content
 			.top
@@ -22,15 +25,15 @@
 					blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 			.bottom
 				.row
-					.col-lg-4.feature
+					.col-md-4.feature
 						img.icon(src='/assets/img/icon-gears.png')
 						h4 Simple
 						p Easy and quick installation
-					.col-lg-4.feature
+					.col-md-4.feature
 						img.icon(src='/assets/img/icon-sensor.png') 
 						h4 Lightweight
 						p Constantly monitors your stovetop
-					.col-lg-4.feature
+					.col-md-4.feature
 						img.icon(src='/assets/img/icon-mobile.png') 
 						h4 Effecient
 						p Sends an alert if overheating is detected

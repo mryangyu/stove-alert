@@ -28,7 +28,8 @@ app.config (cfpLoadingBarProvider) ->
 app.run ($rootScope, $location, $routeParams, $window, $http, $templateCache, $filter, $log) ->
 	FastClick.attach document.body
 	$log.info 'App loaded'
-	
+	mixpanel.track("Landed")
+
 	$rootScope.env = env
 	$rootScope.conf = conf
 

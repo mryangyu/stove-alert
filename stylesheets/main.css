@@ -467,6 +467,12 @@ body:not .flip-container.back > .flipper > .back {
   #home form .btn.btn-primary {
     background-color: #7164ac;
     border-color: #8778ce; }
+    @media (max-width: 988px) {
+      #home form .btn.btn-primary {
+        margin-top: 15px; } }
+    @media (max-width: 763px) {
+      #home form .btn.btn-primary {
+        margin-top: 0; } }
 #home .bg {
   background-image: url(/assets/img/boiling-pot.jpg);
   width: 100%;
