@@ -518,13 +518,13 @@ body:not .flip-container.back > .flipper > .back {
   #home .content .mid {
     background-image: url(/assets/img/holding-phone.jpg);
     background-repeat: no-repeat;
-    background-size: 30%;
+    background-size: 25%;
     background-color: white;
-    height: 400px;
     color: #777;
-    padding-left: 30%;
+    padding-left: 25%;
     padding-right: 60px;
     padding-top: 30px;
+    padding-bottom: 60px;
     float: left; }
     #home .content .mid h3 {
       color: #aaa; }

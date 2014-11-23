@@ -80,16 +80,16 @@
 		}
 
 		.mid {
-			$bg-size: 30%;
+			$bg-size: 25%;
 			background-image: url(/assets/img/holding-phone.jpg);
 			background-repeat: no-repeat;
 			background-size: $bg-size;
 			background-color: white;
-			height: 400px;
 			color: #777;
 			padding-left:$bg-size;
 			padding-right:$margin-lg * 2;
 			padding-top: $margin-lg;
+			padding-bottom: $margin-lg * 2;
 			float: left;
 
 			h3 {
