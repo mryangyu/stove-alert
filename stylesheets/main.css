@@ -521,11 +521,13 @@ body:not .flip-container.back > .flipper > .back {
     background-size: 30%;
     background-color: white;
     height: 400px;
-    color: #bbb;
+    color: #777;
     padding-left: 30%;
     padding-right: 60px;
-    padding-top: 60px;
+    padding-top: 30px;
     float: left; }
+    #home .content .mid h3 {
+      color: #aaa; }
   #home .content .bottom {
     background-color: #6bcfcf;
     float: left;

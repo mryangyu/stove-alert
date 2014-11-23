@@ -86,11 +86,15 @@
 			background-size: $bg-size;
 			background-color: white;
 			height: 400px;
-			color: #bbb;
+			color: #777;
 			padding-left:$bg-size;
 			padding-right:$margin-lg * 2;
-			padding-top: $margin-lg * 2;
+			padding-top: $margin-lg;
 			float: left;
+
+			h3 {
+				color: #aaa;
+			}
 		}
 
 		.bottom {
