@@ -44,6 +44,10 @@
 
 	.content {
 		margin-top: $top-bg-height - $margin-lg;
+		@media (max-width: 768px) {
+			margin-top: 300px;
+			font-size: 0.8em;
+		}
 		right: 0px;
 		position: relative;
 

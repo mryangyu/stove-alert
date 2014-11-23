@@ -18,8 +18,10 @@ body {
 	margin-bottom: $footer-height;
 	background-color: $background-color;
 
-	.container {
-		width: $container-width;
+	@media (min-width: 1100px) {
+		.container {
+			width: $container-width;
+		}
 	}
 }
 

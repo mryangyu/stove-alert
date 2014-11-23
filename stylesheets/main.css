@@ -96,8 +96,9 @@ body {
   font-weight: 100;
   margin-bottom: 30px;
   background-color: #dddddd; }
-  body .container {
-    width: 1100px; }
+  @media (min-width: 1100px) {
+    body .container {
+      width: 1100px; } }
 
 h1, h2, h3 {
   font-family: "Source Sans Pro", sans-serif;
@@ -488,6 +489,10 @@ body:not .flip-container.back > .flipper > .back {
   margin-top: 220px;
   right: 0px;
   position: relative; }
+  @media (max-width: 768px) {
+    #home .content {
+      margin-top: 300px;
+      font-size: 0.8em; } }
   #home .content .logo {
     width: 200px;
     position: absolute;
