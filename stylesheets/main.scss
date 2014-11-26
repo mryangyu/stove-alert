@@ -97,6 +97,16 @@
 			}
 		}
 
+		.video {
+			height: 400px;
+			margin: $margin-lg;
+			iframe {
+				width:560px; 
+				height:315px;
+				
+			}
+		}
+
 		.bottom {
 			background-color: #6bcfcf;
 			float: left;

@@ -7,7 +7,7 @@
 					input.form-control(placeholder='Full name', ng-model='subscribe.name')
 				.form-group
 					input.form-control(placeholder='Email', ng-model='subscribe.email')
-				button.btn.btn-primary(ng-click='subscribe.send()') Notify me when there StoveAlert is available!
+				button.btn.btn-primary(ng-click='subscribe.send()') Sign me up for updates!
 
 			h3(ng-show='subscribe.sent') Thank you!
 
@@ -17,15 +17,17 @@
 				.logo
 					img(src='/assets/img/logo-transparent-stove-alert.png')
 				.pitch
-					p Cooking accidents are the leading cause of house fires. 
-					p StoveAlert can help.
+					p Cooking accidents are the leading cause of house fires: 
+					p StoveAlert aims to prevent that.
 			.mid
-				h3 StoveAlert is a smart device that detects stovetop temperatures before an accident occurs. 
+				h3 StoveAlert Intervenes Before an Accident Occurs
 				p.
-					StoveAlert monitors what's cooking, alerts you when the food gets too hot, 
-					and let's you shut off the stove from anywhere with a simple tap on your phone. 
+					StoveAlert is a smart device that monitors what's cooking, alerts you when a problem arises, and let's you shut off the stove from anywhere with a simple tap on your phone. Alert settings can be customized, and for added security you can specify emergency contacts who can respond when you don't. 
+
 				p.
-					Installed in one easy step, the device keeps an eye on what's cooking when you're not!
+					Installed in one easy step, the device keeps an eye on what's cooking when you're not! StoveAlert gives you peace of mind, wherever you are. 
+			.video
+				iframe(src="//www.youtube.com/embed/eSAykXl1230" frameborder="0" allowfullscreen)
 
 			.bottom
 				.row
@@ -39,7 +41,7 @@
 						p Constantly monitors your stovetop
 					.col-md-4.feature
 						img.icon(src='/assets/img/icon-mobile.png') 
-						h4 Efficent
+						h4 Efficient
 						p Sends an alert if overheating is detected
 
 		.footer
