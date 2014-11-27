@@ -528,6 +528,16 @@ body:not .flip-container.back > .flipper > .back {
     float: left; }
     #home .content .mid h3 {
       color: #aaa; }
+  #home .content .video {
+    float: left;
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+    text-align: center; }
+    #home .content .video iframe {
+      margin: auto;
+      width: 660px;
+      height: 415px; }
   #home .content .bottom {
     background-color: #6bcfcf;
     float: left;
